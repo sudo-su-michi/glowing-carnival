@@ -58,74 +58,40 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "Hello World",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
         },
         items: [
           {
+            type: 'search',
+            position: 'right',
+          },
+          {
             type: "doc",
-            docId: "intro",
+            docId: "index",
             position: "left",
             label: "Tools",
           },
           //          { to: "/blog", label: "Blog", position: "left" },
-          { to: "/markdown-page", label: "Test2", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "Google",
+            to: "/sites",
+            label: "Links",
+            position: "left",
+          },
+          {
+            href: "https://docusaurus.io/docs",
+            label: "Docusaurus Docs",
             position: "right",
           },
         ],
       },
-      /** 
-       footer: {
-         style: "dark",
-         links: [
-           {
-             title: "Docs",
-             items: [
-               {
-                 label: "Tutorial",
-                 to: "/docs/intro",
-               },
-             ],
-           },
-           {
-             title: "Community",
-             items: [
-               {
-                 label: "Stack Overflow",
-                 href: "https://stackoverflow.com/questions/tagged/docusaurus",
-               },
-               {
-                 label: "Discord",
-                 href: "https://discordapp.com/invite/docusaurus",
-               },
-               {
-                 label: "Twitter",
-                 href: "https://twitter.com/docusaurus",
-               },
-             ],
-           },
-           {
-             title: "More",
-             items: [
-               {
-                 label: "Blog",
-                 to: "/blog",
-               },
-               {
-                 label: "GitHub",
-                 href: "https://github.com/facebook/docusaurus",
-               },
-             ],
-           },
-         ],
-         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-       },
-      */
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
