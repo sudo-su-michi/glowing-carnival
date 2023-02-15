@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[3686],{6960:l=>{l.exports=JSON.parse('{"label":"hola","permalink":"/glowing-carnival/build/blog/tags/hola","allTagsPath":"/glowing-carnival/build/blog/tags","count":1}')}}]);
