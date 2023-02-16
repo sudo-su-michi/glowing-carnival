@@ -1,3 +1,5 @@
+# [To the Doku Tool](https://github.com/sudo-su-michi/glowing-carnival/build/)
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
